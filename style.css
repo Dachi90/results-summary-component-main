@@ -30,18 +30,21 @@
 .wrapper {
 	min-height: 100vh;
 	display: grid;
-	grid-template-rows: 40% 60%;
+	grid-template-rows: 45% 65%;
 }
 
 .up {
 	display: grid;
-	grid-template-rows: 10% 60% 30%;
+	grid-template-rows: 10% 55% 35%;
 	border-radius: 0 0 30px 30px;
 	background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
 }
 
 .header {
 	text-align: center;
+	color: var(--light-lavender);
+	font-size: 14px;
+	padding: 0.5rem;
 }
 
 .circle-wrapper {
@@ -51,15 +54,19 @@
 }
 
 .circle {
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 	font-size: 50px;
 	border-radius: 50%;
 	background: linear-gradient(var(--violet-blue), var(--persian-blue));
-	padding: 1rem;
+	padding: 1.5rem 2rem;
+	color: var(--white);
+	font-weight: 800;
 }
 
 .circle span {
-	font-size: 12px;
+	font-size: 16px;
 	color: var(--light-lavender);
 }
 
@@ -67,6 +74,12 @@
 	text-align: center;
 	width: 75%;
 	margin: auto;
+	color: var(--white);
+	padding-bottom: 1.5rem;
+}
+
+.resume p {
+	color: var(--light-lavender);
 }
 
 /* Footer */
